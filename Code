@@ -1,0 +1,48 @@
+import pandas as pd
+import numpy as np
+
+a=pd.read_csv('/content/indexData.csv')
+a
+
+a.columns
+
+a.shape
+
+a.info()
+
+a.isnull().sum()
+
+a.fillna(method='ffill',inplace=True)
+
+a.isnull().sum()
+
+from sklearn import preprocessing
+label_encoder=preprocessing.LabelEncoder()
+a['Date']=label_encoder.fit_transform(a['Date'])
+a['Date'].unique
+
+x=a[['Date', 'Open', 'High', 'Low', 'Close','Adj Close']]
+x
+
+y=a[['Volume']]
+y
+
+from sklearn.model_selection import train_test_split
+xtrain,xtest,ytrain,ytest=train_test_split(x,y,test_size=0.2)
+
+xtrain.shape
+
+ytrain.shape
+
+ytest.shape
+
+from sklearn.metrics import r2_score
+from sklearn import linear_model
+b = linear_model.Lasso(alpha=0.1)
+b.fit(xtrain,ytrain)
+ypred=b.predict(xtest)
+score=r2_score(ytest,ypred)
+print(score)
+
+prediction = b.predict([[261,531.119995,531.119995,531.119995,531.119995,531.119995]])
+print(prediction)
