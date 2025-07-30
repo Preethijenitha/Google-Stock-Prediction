@@ -7,7 +7,7 @@ This project predicts future stock prices of Google using historical market data
 
 🧠 Built and evaluated multiple ML models:
 Linear Regression
-Decision Tree Regressor
+Decision Tree Regression
 Random Forest Regression
 Support Vector Regression (SVR)
 📈 Compared model performances using R² Score and Mean Squared Error (MSE)
