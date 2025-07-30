@@ -1,4 +1,5 @@
 📈 Google Stock Market Prediction
+
 This project predicts future stock prices of Google using historical market data and machine learning models. It leverages data preprocessing, visualization, and various regression algorithms to analyze and forecast stock trends effectively.
 
 🔍 Project Highlights:
