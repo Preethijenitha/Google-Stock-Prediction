@@ -13,7 +13,7 @@ Support Vector Regression (SVR)
 📈 Compared model performances using R² Score and Mean Squared Error (MSE)
 
 🛠️ Tech Stack:
-Python
+Python,
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 Jupyter Notebook / Google Colab
 
