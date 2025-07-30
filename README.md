@@ -3,37 +3,24 @@ This project predicts future stock prices of Google using historical market data
 
 🔍 Project Highlights:
 ✅ Cleaned and preprocessed Google’s historical stock data
-
 📊 Visualized trends (Closing Price, Volume, etc.) to gain insights
 
 🧠 Built and evaluated multiple ML models:
-
 Linear Regression
-
 Decision Tree Regressor
-
-Random Forest Regressor
-
+Random Forest Regression
 Support Vector Regression (SVR)
-
 📈 Compared model performances using R² Score and Mean Squared Error (MSE)
 
 🛠️ Tech Stack:
 Python
-
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
 Jupyter Notebook / Google Colab
 
 📁 Dataset Features:
 Date
-
 Open, High, Low, Close
-
 Volume
 
-🚀 Run This Project in Colab:
-🔗 Open in Google Colab
-
-
-
+Dataset
+References Kaggle
